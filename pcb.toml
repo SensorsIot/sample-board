@@ -1,0 +1,12 @@
+[workspace]
+repository = "github.com/SensorsIot/sample-board"
+pcb-version = "0.3"
+vendor = ["github.com/diodeinc/registry/**"]
+
+[board]
+name = "sample-board"
+path = "sample-board.zen"
+description = "Replace with concise board description."
+
+[access]
+allow = ["*"]
