@@ -1,5 +1,7 @@
 (fp_lib_table
   (version 7)
+  (lib (name "kicad_libraries_kicad-footprints_Battery@9.0.3") (type "KiCad") (uri "${KIPRJMOD}/../.pcb/cache/gitlab.com/kicad/libraries/kicad-footprints/9.0.3/Battery.pretty") (options "") (descr ""))
+  (lib (name "kicad_libraries_kicad-footprints_Button_Switch_THT@9.0.3") (type "KiCad") (uri "${KIPRJMOD}/../.pcb/cache/gitlab.com/kicad/libraries/kicad-footprints/9.0.3/Button_Switch_THT.pretty") (options "") (descr ""))
   (lib (name "kicad_libraries_kicad-footprints_LED_SMD@9.0.3") (type "KiCad") (uri "${KIPRJMOD}/../.pcb/cache/gitlab.com/kicad/libraries/kicad-footprints/9.0.3/LED_SMD.pretty") (options "") (descr ""))
   (lib (name "kicad_libraries_kicad-footprints_Resistor_SMD@9.0.3") (type "KiCad") (uri "${KIPRJMOD}/../.pcb/cache/gitlab.com/kicad/libraries/kicad-footprints/9.0.3/Resistor_SMD.pretty") (options "") (descr ""))
 )

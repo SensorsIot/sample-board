@@ -8,5 +8,9 @@ name = "sample-board"
 path = "sample-board.zen"
 description = "Replace with concise board description."
 
+[dependencies]
+"gitlab.com/kicad/libraries/kicad-footprints" = "9.0.3"
+"gitlab.com/kicad/libraries/kicad-symbols" = "9.0.3"
+
 [access]
 allow = ["*"]

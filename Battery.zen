@@ -1,0 +1,18 @@
+"""
+Battery - CR2032 coin-cell holder (Keystone 3002), 2-pin.
+"""
+
+POS = io(Net)  # + terminal
+NEG = io(Net)  # - terminal
+
+Component(
+    name="BT",
+    part=Part(mpn="3002", manufacturer="Keystone Electronics"),
+    symbol=Symbol(library="@kicad-symbols/Device.kicad_sym", name="Battery_Cell"),
+    footprint=File("@kicad-footprints/Battery.pretty/BatteryHolder_Keystone_3002_1x2032.kicad_mod"),
+    prefix="BT",
+    pins={
+        "+": POS,
+        "-": NEG,
+    },
+)

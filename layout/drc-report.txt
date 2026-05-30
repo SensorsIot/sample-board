@@ -1,37 +1,30 @@
 ** Drc report for layout.kicad_pcb **
-** Created on 2026-05-30T07:46:05 **
+** Created on 2026-05-30T08:15:28 **
 ** Report includes: Errors, Warnings **
 
-** Found 6 DRC violations **
-[invalid_outline]: Board has malformed outline (no edges found on Edge.Cuts layer)
-    Local override; error
-    @(0.0000 mm, 0.0000 mm): PCB
-[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0850 mm)
-    Rule: board setup constraints silk; warning
-    @(148.6175 mm, 103.8300 mm): Reference field of D1
-    @(148.3825 mm, 102.8400 mm): Reference field of R1
-[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0673 mm)
-    Rule: board setup constraints silk; warning
-    @(148.2289 mm, 103.6300 mm): Segment of R1 on F.Silkscreen
-    @(148.6175 mm, 103.8300 mm): Reference field of D1
-[silk_overlap]: Silkscreen clearance (board setup constraints silk clearance 0.1000 mm; actual 0.0178 mm)
-    Rule: board setup constraints silk; warning
-    @(148.2289 mm, 104.3900 mm): Segment of R1 on F.Silkscreen
-    @(148.6175 mm, 103.8300 mm): Reference field of D1
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(148.6175 mm, 103.8300 mm): Reference field of D1
-    @(147.8725 mm, 104.0100 mm): Pad 1 [VCC] of R1 on F.Cu
-[silk_over_copper]: Silkscreen clipped by solder mask
-    Local override; warning
-    @(148.6175 mm, 103.8300 mm): Reference field of D1
-    @(148.8925 mm, 104.0100 mm): Pad 2 [LED_ANODE] of R1 on F.Cu
+** Found 0 DRC violations **
 
-** Found 1 unconnected pads **
+** Found 5 unconnected pads **
 [unconnected_items]: Missing connection between items
     Local override; error
-    @(148.8925 mm, 104.0100 mm): Pad 2 [LED_ANODE] of R1 on F.Cu
-    @(149.1025 mm, 105.0000 mm): Pad 2 [LED_ANODE] of D1 on F.Cu
+    @(133.3300 mm, 89.6062 mm): Pad 1 [GND] of D1 on F.Cu
+    @(148.5000 mm, 104.7238 mm): Pad 2 [GND] of BT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.3000 mm, 89.6062 mm): Pad 2 [LED_ANODE] of D1 on F.Cu
+    @(143.4000 mm, 93.6562 mm): Pad 2 [LED_ANODE] of R1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(134.0300 mm, 92.1262 mm): PTH pad 1 [VBAT] of SW1
+    @(135.7000 mm, 104.7238 mm): Pad 1 [VBAT] of BT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(135.7000 mm, 104.7238 mm): Pad 1 [VBAT] of BT1 on F.Cu
+    @(161.3000 mm, 104.7238 mm): Pad 1 [VBAT] of BT1 on F.Cu
+[unconnected_items]: Missing connection between items
+    Local override; error
+    @(140.5300 mm, 92.1262 mm): PTH pad 2 [KEYED] of SW1
+    @(142.3800 mm, 93.6562 mm): Pad 1 [KEYED] of R1 on F.Cu
 
 ** Found 0 Footprint errors **
 
